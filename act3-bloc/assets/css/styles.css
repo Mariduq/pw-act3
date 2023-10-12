@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+    transition: 0.5;
+    overflow-x: hidden;
+}
+
+body{
+    scroll-behavior: smooth;
+    transition: 0.5;
+    overflow-x: hidden;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav, footer {
+    background-color: rgb(173, 11, 60) !important;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#container{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#botones{
+    padding-right: 45%;
+}
+
+textarea {
+    resize: vertical; /* user can resize vertically, but width is fixed */
+    height: 500px !important;
+}
+
+
+p {
+    text-align: justify;
+}
